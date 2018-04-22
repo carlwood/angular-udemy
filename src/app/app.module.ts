@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { UsernameComponent } from './username/username.component';
+import { LoggerComponent } from './logger/logger.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { UsernameComponent } from './username/username.component';
     AppComponent,
     ServerComponent,
     ServersComponent,
-    UsernameComponent
+    UsernameComponent,
+    LoggerComponent
   ],
   imports: [
     BrowserModule,
